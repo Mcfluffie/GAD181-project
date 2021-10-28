@@ -1,18 +1,52 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FadeOut : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject blackOutSquare;
+
+    public void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            StartCoroutine(FadeBlackOutSquare());
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            StartCoroutine(FadeBlackOutSquare(false));
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public IEnumerator FadeBlackOutSquare(bool fadetoblack = true, int fadeSpeed = 5)
     {
-        
+        Color objectColor = blackOutSquare.GetComponent<Image>().color;
+        float fadeAmount;
+
+        if (fadetoblack)
+        {
+            while (blackOutSquare.GetComponent<Image>().color.a < 1)
+            {
+                fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
+
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                blackOutSquare.GetComponent<Image>().color = objectColor;
+                yield return null;
+
+            }
+        } else
+        {
+            while (blackOutSquare.GetComponent<Image>().color.a > 0)
+            {
+                fadeAmount = objectColor.a - (fadeSpeed * Time.deltaTime);
+
+                objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+                blackOutSquare.GetComponent<Image>().color = objectColor;
+                yield return null;
+            }
+        }
+
     }
+
 }
