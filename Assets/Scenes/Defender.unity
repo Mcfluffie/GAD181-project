@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 575574645}
   - component: {fileID: 575574646}
   - component: {fileID: 575574647}
+  - component: {fileID: 575574648}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Player
@@ -438,12 +439,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f64d8c8f912af14b89363569999b32d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fly: 1
-  jump: 0
-  Speed: 8
-  Rotation: 1000
-  xVelocity: 0
-  Bird: {fileID: 575574644}
 --- !u!50 &575574646
 Rigidbody2D:
   serializedVersion: 4
@@ -491,6 +486,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &575574648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575574642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397ab132f6537d345823f2d9ebdd7f25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameLength: 5
+  fly: 1
+  jump: 0
+  Speed: 10
+  Rotation: 1000
+  gravity: 0
+  jumpheight: 0
+  Bird: {fileID: 575574644}
 --- !u!1 &993242455
 GameObject:
   m_ObjectHideFlags: 0
