@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Birdy : MonoBehaviour
 {
+
+    public float GameLength;
     public bool fly;
     public bool jump;
     float isGrounded = 0;
@@ -33,6 +35,12 @@ public class Birdy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GameLength -= Time.deltaTime;
+
+        if (GameLength <=0)
+        {
+            SceneManager.LoadScene(0);
+        }
         if (fly == true)
         {
             float mouseX = Input.GetAxis("Mouse X") * Rotation * Time.deltaTime;

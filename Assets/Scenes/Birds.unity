@@ -1753,9 +1753,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 397ab132f6537d345823f2d9ebdd7f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameLength: 20
   fly: 1
   jump: 0
-  Speed: 5
+  Speed: 10
   Rotation: 1000
   gravity: 0
   jumpheight: 0
