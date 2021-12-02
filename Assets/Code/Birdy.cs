@@ -10,7 +10,7 @@ public class Birdy : MonoBehaviour
     public bool fly;
     public bool jump;
     float isGrounded = 0;
-    public float Speed = 5;
+    public float Speed;
     public float Rotation = 100;
     public float gravity;
     public float jumpheight;
@@ -130,10 +130,11 @@ public class Birdy : MonoBehaviour
                 SceneManager.LoadScene(0);
                 //loss
             }
-            if (other.gameObject.tag == "Win")
+            if (other.gameObject.tag == "Friend")
             {
-                //win
-            }
+                Cursor.lockState = CursorLockMode.None;
+                SceneManager.LoadScene(0);
+        }
 
         }
 }
