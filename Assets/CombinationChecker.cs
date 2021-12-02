@@ -8,43 +8,44 @@ public class CombinationChecker : MonoBehaviour
     
 
     private int number;
-    public int TheCombination;
     private int countGuess;
 
     [SerializeField]
     public InputField input;
 
     [SerializeField]
-    private Text text;
+    public Text resultText;
+    public Text generatorCode;
 
 
     void Awake()
     {
-        number = TheCombination;
-        TheCombination = Random.Range(10000000, 100000000);
+        number = Random.Range(10000000, 100000000);
     }
     public void GetInput(string answer)
     {
-        CompareAnswer(int.Parse(answer));
+        CompareAnswer(answer);
         input.text = "";
     }
 
-    void CompareAnswer(int answer)
+    void CompareAnswer(string answer)
     {
-        if (answer == number)
+        if (answer == number.ToString())
         {
-            text.text = "Correct Answer, Well Done";
+            resultText.text = "Correct Answer, Well Done";
 
         }
-        else if (answer < number)
+        else
         {
-            text.text = "Incorrect, Try Again";
-        }
-        else if (answer > number)
-        {
-            text.text = "Incorrect, Try Again";
+            resultText.text = "Incorrect, Try Again";
+            Debug.Log(answer + " solution = " + number);
         }
 
+    }
+
+    public void DisplayNumber()
+    {
+        generatorCode.text = "" + number;
     }
 
 }
