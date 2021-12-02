@@ -14,6 +14,9 @@ public class RandomNumberGenerator : MonoBehaviour
         TheCombination = Random.Range(10000000, 100000000);
         TextBox.GetComponent<Text>().text = "" + TheCombination;
     }
+    
+    
+    }
 
     
-}
+

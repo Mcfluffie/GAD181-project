@@ -8,7 +8,7 @@ public class CombinationChecker : MonoBehaviour
     
 
     private int number;
-
+    public int TheCombination;
     private int countGuess;
 
     [SerializeField]
@@ -20,8 +20,8 @@ public class CombinationChecker : MonoBehaviour
 
     void Awake()
     {
-        
-        
+        number = TheCombination;
+        TheCombination = Random.Range(10000000, 100000000);
     }
     public void GetInput(string answer)
     {
@@ -29,18 +29,18 @@ public class CombinationChecker : MonoBehaviour
         input.text = "";
     }
 
-    void CompareAnswer(int TheCombination)
+    void CompareAnswer(int answer)
     {
-        if (TheCombination == number)
+        if (answer == number)
         {
             text.text = "Correct Answer, Well Done";
 
         }
-        else if (TheCombination < number)
+        else if (answer < number)
         {
             text.text = "Incorrect, Try Again";
         }
-        else if (TheCombination > number)
+        else if (answer > number)
         {
             text.text = "Incorrect, Try Again";
         }
