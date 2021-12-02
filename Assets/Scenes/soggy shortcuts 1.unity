@@ -40770,6 +40770,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 1365135262519532260, guid: 037a53aa9e087c64aaf770fb1a5877e8, type: 3}
+      propertyPath: playerUp
+      value: 
+      objectReference: {fileID: 7497252587118685142, guid: 295ab9124f46fbb40941f4157291147f, type: 3}
+    - target: {fileID: 1365135262519532260, guid: 037a53aa9e087c64aaf770fb1a5877e8, type: 3}
+      propertyPath: playerDown
+      value: 
+      objectReference: {fileID: -417808605539638886, guid: 295ab9124f46fbb40941f4157291147f, type: 3}
+    - target: {fileID: 1365135262519532260, guid: 037a53aa9e087c64aaf770fb1a5877e8, type: 3}
+      propertyPath: playerLeft
+      value: 
+      objectReference: {fileID: -2792907009286056443, guid: 295ab9124f46fbb40941f4157291147f, type: 3}
+    - target: {fileID: 1365135262519532260, guid: 037a53aa9e087c64aaf770fb1a5877e8, type: 3}
+      propertyPath: playerRight
+      value: 
+      objectReference: {fileID: 1571169188538531093, guid: 295ab9124f46fbb40941f4157291147f, type: 3}
+    - target: {fileID: 1365135262519532261, guid: 037a53aa9e087c64aaf770fb1a5877e8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7497252587118685142, guid: 295ab9124f46fbb40941f4157291147f, type: 3}
     - target: {fileID: 1365135262519532262, guid: 037a53aa9e087c64aaf770fb1a5877e8, type: 3}
       propertyPath: m_RootOrder
       value: 2

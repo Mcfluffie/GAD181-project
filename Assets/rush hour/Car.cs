@@ -12,7 +12,7 @@ public class Car : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float amtToMove = Input.GetAxis("Horizontal") * PlayerSpeed * Time.deltaTime;
         transform.Translate(Vector3.right * amtToMove);

@@ -5,6 +5,8 @@ using UnityEngine;
 public class Spawning : MonoBehaviour
 {
     private float spawning = 0;
+    public float rangeMin;
+    public float rangeMax;
     public Transform[] spawnpoint;
     public GameObject[] Prefabs;
     public bool Set;
@@ -23,7 +25,7 @@ public class Spawning : MonoBehaviour
         {
             int randomInt = Random.Range(0, Prefabs.Length);
             Instantiate(Prefabs[randomInt], spawnpoint[0].position, transform.rotation);
-            spawning = Random.Range(0.5f, 2f);
+            spawning = Random.Range(rangeMin, rangeMax);
         }
 
     }
