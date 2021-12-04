@@ -604,8 +604,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -538.12244, y: 397.06122}
-  m_SizeDelta: {x: 160, y: 20}
+  m_AnchoredPosition: {x: -647.7496, y: 359.974}
+  m_SizeDelta: {x: 117.9095, y: 17.2954}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &180026818
 MonoBehaviour:
@@ -1179,7 +1179,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105, y: -212}
+  m_AnchoredPosition: {x: 105, y: -138}
   m_SizeDelta: {x: 667.3495, y: 131.1022}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &484059446 stripped
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerSlider: {fileID: 180026818}
   timerText: {fileID: 1733859297}
-  gameTime: 15
+  gameTime: 20
 --- !u!4 &568102330
 Transform:
   m_ObjectHideFlags: 0
@@ -2824,18 +2824,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d82b7abd6626d4d46b90dbb3c15c7361, type: 3}
-    m_FontSize: 14
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 15 Seconds
+  m_Text: 20 Seconds
 --- !u!222 &1733859298
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3200,7 +3200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 166, y: 24}
+  m_AnchoredPosition: {x: 164, y: 105}
   m_SizeDelta: {x: 975.0226, y: 293.2571}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1964845991

@@ -15274,7 +15274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7800a4a0195f647a25d047df78a854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerSlider: {fileID: 0}
+  timerSlider: {fileID: 229394284}
   timerText: {fileID: 0}
   gameTime: 15
 --- !u!4 &884643617
@@ -36766,8 +36766,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -542, y: 340}
-  m_SizeDelta: {x: 97.8714, y: 15.999}
+  m_AnchoredPosition: {x: -434.3, y: 239.1}
+  m_SizeDelta: {x: 62.0556, y: 13.8125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1912302330
 GameObject:
