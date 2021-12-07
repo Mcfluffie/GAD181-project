@@ -64,7 +64,7 @@ public class Birdy : MonoBehaviour
                 Fly = new Vector2(xVelocity, yVelocity);
                 Birds.velocity = Fly;
             }
-            if (Timer > 0)
+            if (Timer >= 0)
             {
                 Timer -= Time.deltaTime;
             }
@@ -73,7 +73,7 @@ public class Birdy : MonoBehaviour
                 //Destroy(gameObject);
                 //loss
             }
-            if (Energy > 0)
+            if (Energy >= 0)
             {
                 Energy -= Time.deltaTime;
             }
@@ -84,7 +84,10 @@ public class Birdy : MonoBehaviour
             }
             if (Snacks == 12)
             {
-                //victory
+                
+             int index = Random.Range(1, 12);
+             SceneManager.LoadScene(index);
+                
             }
         }
         if (fly == false)

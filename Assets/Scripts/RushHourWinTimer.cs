@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class Timer : MonoBehaviour
+public class RushHourWinTimer : MonoBehaviour
 {
     // Start is called before the first frame update
     public Slider timerSlider;
@@ -41,7 +41,8 @@ public class Timer : MonoBehaviour
         }
         if (time <= 0)
         {
-            SceneManager.LoadScene(0);
+            int index = Random.Range(1, 12);
+            SceneManager.LoadScene(index);
         }
 
     }
