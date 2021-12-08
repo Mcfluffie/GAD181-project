@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -31,6 +32,8 @@ public class GameController : MonoBehaviour
         if (guess == number)
         {
             text.text = "Correct Answer, Well Done";
+            int index = Random.Range(1, 12);
+            SceneManager.LoadScene(index);
         } 
         else if (guess < number)
         {
