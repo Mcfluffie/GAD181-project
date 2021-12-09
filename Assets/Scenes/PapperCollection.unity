@@ -4444,6 +4444,7 @@ GameObject:
   - component: {fileID: 585335369}
   - component: {fileID: 585335368}
   - component: {fileID: 585335367}
+  - component: {fileID: 585335372}
   m_Layer: 0
   m_Name: car L (8)
   m_TagString: Car
@@ -8393,6 +8394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1124059523}
+  - component: {fileID: 1124059524}
   m_Layer: 0
   m_Name: Paper collection
   m_TagString: Untagged
@@ -10294,7 +10296,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392847639}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d7800a4a0195f647a25d047df78a854, type: 3}
   m_Name: 

@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Typing : MonoBehaviour
 
 {
     public WordBank wordBank = null;
     public Text wordOutput = null;
+
+    public int numWordsToComplete = 10;
 
     private string remainingWord = string.Empty;
     private string currentWord = string.Empty;
@@ -52,7 +55,17 @@ public class Typing : MonoBehaviour
             RemoveLetter();
 
             if (IsWordComplete())
-                SetCurrentWord();  
+            {
+                numWordsToComplete--;
+                if(numWordsToComplete <= 0)
+                {
+                    Win();
+                }
+                else
+                {
+                    SetCurrentWord();
+                }                
+            }                
         }
     }
 
@@ -70,5 +83,11 @@ public class Typing : MonoBehaviour
     private bool IsWordComplete()
     {
         return remainingWord.Length == 0;
+    }
+
+    public void Win()
+    {
+        int index = Random.Range(1, 12);
+        SceneManager.LoadScene(index);
     }
 }

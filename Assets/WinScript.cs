@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinScript : MonoBehaviour
 {
@@ -18,7 +19,10 @@ public class WinScript : MonoBehaviour
     {
         if (currentPoints >= pointsToWin)
         {
-            transform.GetChild(0).gameObject.SetActive(true);  
+            transform.GetChild(0).gameObject.SetActive(true);
+            int index = Random.Range(1, 12);
+            SceneManager.LoadScene(index);
+
         }
     }
 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CombinationChecker : MonoBehaviour
 {
@@ -33,7 +34,8 @@ public class CombinationChecker : MonoBehaviour
         if (answer == number.ToString())
         {
             resultText.text = "Correct Answer, Well Done";
-
+            int index = Random.Range(1, 12);
+            SceneManager.LoadScene(index);
         }
         else
         {

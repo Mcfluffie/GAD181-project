@@ -13,17 +13,19 @@ public class Timer : MonoBehaviour
     public float gameTime;
 
     private bool stopTimer;
+    private float startTime;
     void Start()
     {
         stopTimer = false;
         timerSlider.maxValue = gameTime;
         timerSlider.value = gameTime;
+        startTime = Time.time;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float time = gameTime - Time.time;
+        float time = (gameTime + startTime) - Time.time;
 
         int minutes = Mathf.FloorToInt(time / 60);
         int seconds = Mathf.FloorToInt(time - minutes * 60f);

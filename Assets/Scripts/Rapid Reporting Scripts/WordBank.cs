@@ -46,8 +46,6 @@ public class WordBank : MonoBehaviour
             newWord = workingWords.Last();
             workingWords.Remove(newWord);
         }
-
-
         return newWord;  
     }
 }
