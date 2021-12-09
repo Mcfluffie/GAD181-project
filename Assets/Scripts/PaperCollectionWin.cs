@@ -12,8 +12,8 @@ public class PaperCollectionWin : MonoBehaviour
     }
     void Update()
     {
-        //If there are no child (which are the cubes) then change the scene
-        if (transform.childCount < 1)
+        
+        if (transform.childCount <= 0)
         {
             int index = Random.Range(1, 12);
             SceneManager.LoadScene(index);
