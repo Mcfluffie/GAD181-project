@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class Bin : MonoBehaviour
 {
@@ -14,42 +15,52 @@ public class Bin : MonoBehaviour
         if (keep1T .isOn)
         {
             Destroy(keep1);
+            SceneManager.LoadScene(0);
         }
         if (keep2T.isOn)
         {
             Destroy(keep2);
+            SceneManager.LoadScene(0);
         }
         if (keep3T.isOn)
         {
             Destroy(keep3);
+            SceneManager.LoadScene(0);
         }
         if (keep4T.isOn)
         {
             Destroy(keep4);
+            SceneManager.LoadScene(0);
         }
         if (keep5T.isOn)
         {
             Destroy(keep5);
+            SceneManager.LoadScene(0);
         }
         if (keep6T.isOn)
         {
             Destroy(keep6);
+            SceneManager.LoadScene(0);
         }
         if (keep7T.isOn)
         {
             Destroy(keep7);
+            SceneManager.LoadScene(0);
         }
         if (keep8T.isOn)
         {
             Destroy(keep8);
+            SceneManager.LoadScene(0);
         }
         if (keep9T.isOn)
         {
             Destroy(keep9);
+            SceneManager.LoadScene(0);
         }
         if (keep10T.isOn)
         {
             Destroy(keep10);
+            SceneManager.LoadScene(0);
         }
         if (delete1T.isOn)
         {
