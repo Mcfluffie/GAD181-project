@@ -5,7 +5,7 @@ using UnityEngine;
 public class characterControllerM : MonoBehaviour
 {
     public float PlayerSpeed = 5;
-    private Rigidbody2D rb;
+     Rigidbody2D rb;
 
 
     // Start is called before the first frame update

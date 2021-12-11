@@ -12,6 +12,9 @@ TagManager:
   - Food
   - Nest
   - Friend
+  - Win
+  - Keep
+  - Delete
   layers:
   - Default
   - TransparentFX
@@ -48,4 +51,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: hit
+    uniqueID: 3215586453
     locked: 0

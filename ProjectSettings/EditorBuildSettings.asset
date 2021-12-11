@@ -9,23 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 27d48cec94785b54ba1e11075fe69359
   - enabled: 1
-    path: Assets/Scenes/Bus rush.unity
-    guid: 442a02e2363ff7d4cb1c0a7f7cf74717
+    path: Assets/Scenes/Lawn.unity
+    guid: 90749af372cd8c9449ddb9c9328b7d42
   - enabled: 1
-    path: Assets/Scenes/Birds.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Defender.unity
+    guid: 08915a3d80298bd4397f551b4a32a126
   - enabled: 1
     path: Assets/Scenes/Base Tax Time 1.unity
     guid: 5d4e4dc83901a6040a734f3d02ae5792
   - enabled: 1
     path: Assets/Scenes/Bin Toss.unity
     guid: ddf49e75f0b4798409f8a31ee6463ccc
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Bus rush.unity
+    guid: 442a02e2363ff7d4cb1c0a7f7cf74717
+  - enabled: 1
+    path: Assets/Scenes/PapperCollection.unity
+    guid: 5c957d3dcfd98464188ec30a62cbec90
   - enabled: 1
     path: Assets/Scenes/Faulty Alarm.unity
     guid: e12a460fadba78e48909eeeb3e5ef7f0
@@ -33,8 +33,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Grocery Sorting.unity
     guid: 8f0f5211b0f2db743abbb62b8593fa91
   - enabled: 1
-    path: Assets/Scenes/PapperCollection.unity
-    guid: 5c957d3dcfd98464188ec30a62cbec90
+    path: Assets/Scenes/soggy shortcuts 1.unity
+    guid: 1579da8f8d3971446b1648d578c6fd35
   - enabled: 1
     path: Assets/Scenes/Rapid Reporting.unity
     guid: 46dd92bb97a573c46b1807941888a9be
@@ -42,10 +42,10 @@ EditorBuildSettings:
     path: Assets/Scenes/rush hour.unity
     guid: faf68f8b61f0a6b4c96982bc675630e4
   - enabled: 1
-    path: Assets/Scenes/soggy shortcuts 1.unity
-    guid: 1579da8f8d3971446b1648d578c6fd35
+    path: Assets/Scenes/EliminatingEmails.unity
+    guid: 160f343e70a5af444b16bea841a68ece
   - enabled: 1
-    path: Assets/Scenes/Stay Awake.unity
+    path: Assets/Scenes/boss fight.unity
     guid: 318becd39ce530f49a75dce5ec09440e
   - enabled: 1
     path: Assets/Scenes/Steps to Success.unity

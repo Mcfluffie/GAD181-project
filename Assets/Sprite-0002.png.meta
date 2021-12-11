@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dd009de2bf223ed449e27e6024241587
+guid: 289fa0909831ec74285a0090eb2f1ac9
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: 1222221480408444849
     second: Sprite-0002_4
+  - first:
+      213: 7634275255999491522
+    second: Sprite-0002_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -181,10 +184,10 @@ TextureImporter:
       name: Sprite-0002_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 94
-        width: 15
-        height: 53
+        x: 17
+        y: 121
+        width: 48
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +205,10 @@ TextureImporter:
       name: Sprite-0002_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 94
-        width: 9
-        height: 24
+        x: 74
+        y: 116
+        width: 49
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +226,10 @@ TextureImporter:
       name: Sprite-0002_2
       rect:
         serializedVersion: 2
-        x: 75
-        y: 95
-        width: 18
-        height: 51
+        x: 128
+        y: 70
+        width: 16
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +247,10 @@ TextureImporter:
       name: Sprite-0002_3
       rect:
         serializedVersion: 2
-        x: 93
-        y: 95
-        width: 9
-        height: 23
+        x: 16
+        y: 24
+        width: 32
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +268,10 @@ TextureImporter:
       name: Sprite-0002_4
       rect:
         serializedVersion: 2
-        x: 112
-        y: 94
-        width: 12
-        height: 51
+        x: 64
+        y: 24
+        width: 32
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,6 +281,27 @@ TextureImporter:
       bones: []
       spriteID: 1bfe898f5f336f010800000000000000
       internalID: 1222221480408444849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-0002_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 6
+        width: 112
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd676fa5e462f960800000000000000
+      internalID: 7634275255999491522
       vertices: []
       indices: 
       edges: []
